@@ -1,0 +1,101 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "lr": 0.001,
+  "weight_decay": 0.1,
+  "warmup": 100,
+  "parameters": 1088256,
+  "precision": "fp32",
+  "train_tokens": 9830400,
+  "preparation_seconds": 9.196531724184752,
+  "train_seconds": 22.27457558363676,
+  "validation": {
+    "bpb": 2.0710806679343734,
+    "token_ppl": 79.527761827464,
+    "nll_nats": 1648037.206039255,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.20876624435186386
+  },
+  "history": [
+    {
+      "step": 100,
+      "loss": 5.931272029876709,
+      "seconds": 2.1031984090805054
+    },
+    {
+      "step": 200,
+      "loss": 5.241197109222412,
+      "seconds": 3.9601571299135685
+    },
+    {
+      "step": 300,
+      "loss": 4.939335823059082,
+      "seconds": 5.798445150256157
+    },
+    {
+      "step": 400,
+      "loss": 4.678948402404785,
+      "seconds": 7.626977350562811
+    },
+    {
+      "step": 500,
+      "loss": 4.665626525878906,
+      "seconds": 9.45990413799882
+    },
+    {
+      "step": 600,
+      "loss": 4.527510643005371,
+      "seconds": 11.294932045042515
+    },
+    {
+      "step": 700,
+      "loss": 4.4383625984191895,
+      "seconds": 13.11090923845768
+    },
+    {
+      "step": 800,
+      "loss": 4.4585394859313965,
+      "seconds": 14.983419671654701
+    },
+    {
+      "step": 900,
+      "loss": 4.380014896392822,
+      "seconds": 16.81625223532319
+    },
+    {
+      "step": 1000,
+      "loss": 4.3535566329956055,
+      "seconds": 18.629357289522886
+    },
+    {
+      "step": 1100,
+      "loss": 4.315086364746094,
+      "seconds": 20.44719783961773
+    },
+    {
+      "step": 1200,
+      "loss": 4.316897869110107,
+      "seconds": 22.274224001914263
+    }
+  ],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 31.946045741438866,
+  "torch_version": "2.7.1+cu126",
+  "threads": 8,
+  "checkpoint_sha256": "6c87c74d3ebaa2e9b50d154be46df35f87f9e3b648ee1ebd01a745b8f1db5552",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "peak_allocated_gb": 0.53879296,
+  "peak_reserved_gb": 0.610271232
+}

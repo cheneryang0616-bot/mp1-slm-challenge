@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "gpu-anchor-9x-do",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 88473600,
+  "note": "cross-device bridge: repeat of wide256-9x-do (recorded 1.550847)",
+  "plan": "gpu-anchor-9x-do",
+  "seed": 17,
+  "steps": 10800,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 337.9937206916511,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.002106759697198868
+}

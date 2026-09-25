@@ -1,0 +1,18 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256.json",
+  "run_prefix": "hp-wd-zero",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "weight_decay": 0.0,
+  "note": "HP sweep: weight decay 0 (reference 0.1), everything else unchanged",
+  "plan": "hp-wd-zero",
+  "seed": 17,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 3058.1943172920146,
+  "peak_ram_gb_children": 1.91656494140625
+}

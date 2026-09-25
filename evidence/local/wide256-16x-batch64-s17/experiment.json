@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-16x-batch64",
+  "seeds": [
+    17
+  ],
+  "batch_size": 64,
+  "targets": 157286400,
+  "note": "batch-size sweep: 64 instead of 32 at the same 16x target budget",
+  "plan": "wide256-16x-batch64",
+  "seed": 17,
+  "steps": 9600,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 300.1661409623921,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.00210687518119812
+}

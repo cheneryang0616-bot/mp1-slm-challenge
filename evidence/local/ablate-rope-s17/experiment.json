@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/modern-pos.json",
+  "run_prefix": "ablate-rope",
+  "seeds": [
+    17,
+    18,
+    19
+  ],
+  "batch_size": 32,
+  "note": "ablation: learned absolute positions in place of RoPE",
+  "plan": "ablate-rope",
+  "seed": 17,
+  "steps": 1200,
+  "threads": 2,
+  "targets": 9830400,
+  "wall_seconds": 779.6371020829974,
+  "peak_ram_gb_children": 1.5431365966796875
+}

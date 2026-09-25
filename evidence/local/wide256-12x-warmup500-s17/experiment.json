@@ -1,0 +1,20 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-12x-warmup500",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 117964800,
+  "warmup": 500,
+  "note": "warmup sweep: 500 steps instead of 100 (never varied before)",
+  "plan": "wide256-12x-warmup500",
+  "seed": 17,
+  "steps": 14400,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 449.3614456728101,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.0021068304777145386
+}

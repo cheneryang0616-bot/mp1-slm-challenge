@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/modern.json",
+  "run_prefix": "modern-long",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "note": "same architecture as modern, 3x training targets",
+  "plan": "modern-long",
+  "seed": 17,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 2412.8861959170026,
+  "peak_ram_gb_children": 1.6298980712890625
+}

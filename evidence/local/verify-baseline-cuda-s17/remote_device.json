@@ -1,0 +1,29 @@
+{
+  "imported_from": "_server_results/server-runs.tgz (AutoDL RTX 4090)",
+  "imported_on": "2026-09-24",
+  "os": "Ubuntu 22.04.5",
+  "cpu": "Intel Xeon Platinum 8358P",
+  "gpu": "NVIDIA GeForce RTX 4090 24GB",
+  "driver": "580.105.08",
+  "python": "3.12.3",
+  "torch": "2.7.1+cu126",
+  "cudnn": "9.5.1",
+  "train_precision": "fp32 (torch.set_float32_matmul_precision('highest'), so TF32 off)",
+  "threads": 8,
+  "hardware": "x86_64 (Xeon 8358P) + RTX 4090 / CUDA training",
+  "cross_device_calibration": {
+    "run": "verify-baseline-cuda-s17",
+    "local_reference_bpb": 2.0710878209843933,
+    "gpu_cpu_scored_bpb": 2.0710806613907398,
+    "delta_bpb": -7.1591e-09,
+    "anchor_check": {
+      "gpu_anchor_6x_do": 1.5742731444011682,
+      "gpu_anchor_9x_do": 1.5518303014880868,
+      "gpu_delta_9x_minus_6x": -0.0224428429130814,
+      "reference_delta_9x_minus_6x": -0.023287,
+      "delta_of_deltas": 0.0008441570869186,
+      "verdict": "the 6x->9x effect reproduces within 8.4e-4, i.e. 0.18 sigma"
+    }
+  },
+  "renamed_from": "verify-baseline-s17"
+}

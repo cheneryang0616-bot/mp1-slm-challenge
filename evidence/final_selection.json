@@ -1,0 +1,79 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "selected_on": "validation",
+  "frozen_run": "wide512-T1-58k-wd0-s18",
+  "frozen_validation_bpb": 1.4292940442575701,
+  "test_split": "test",
+  "test_bpb": 1.448064678553486,
+  "test_seconds": 29.899302250007167,
+  "baseline_bpb": 2.1012600623562427,
+  "baseline_seconds": 7.925371040997561,
+  "cost_ratio_vs_baseline": 3.7726059884565055,
+  "asset_mib": 52.02214527130127,
+  "checkpoint_sha256": "e9deeb465b17b359b55aec2e3537ca53906aa5b26a2ba380f1d55c0c39e38590",
+  "candidates": [
+    {
+      "run": "wide512-T1-58k-wd0-s17",
+      "validation_bpb": 1.430425160029893,
+      "parameters": 13634048,
+      "seed": 17,
+      "steps": 57600,
+      "checkpoint": "../_server_results/checkpoints/wide512-T1-58k-wd0-s17.pt",
+      "checkpoint_mib": 52.02214527130127,
+      "checkpoint_sha256": "0eeb93378a5279aac27492b8da2c3dac7668790b6f6adc4ba2f50aeb933ee5a7"
+    },
+    {
+      "run": "wide512-T1-58k-wd0-s18",
+      "validation_bpb": 1.4292940442575701,
+      "parameters": 13634048,
+      "seed": 18,
+      "steps": 57600,
+      "checkpoint": "../_server_results/checkpoints/wide512-T1-58k-wd0-s18.pt",
+      "checkpoint_mib": 52.02214527130127,
+      "checkpoint_sha256": "e9deeb465b17b359b55aec2e3537ca53906aa5b26a2ba380f1d55c0c39e38590"
+    },
+    {
+      "run": "wide448-T1-58k-wd0-s17",
+      "validation_bpb": 1.433142851879735,
+      "parameters": 10557120,
+      "seed": 17,
+      "steps": 57600,
+      "checkpoint": "../_server_results/checkpoints/wide448-T1-58k-wd0-s17.pt",
+      "checkpoint_mib": 40.28459644317627,
+      "checkpoint_sha256": "d7be73733e4a92d312b5d7a4dd5d392c624e701e405956eca1fe01a70d439eca"
+    },
+    {
+      "run": "wide384-T1-58k-wd0-s17",
+      "validation_bpb": 1.4368449009834228,
+      "parameters": 7867776,
+      "seed": 17,
+      "steps": 57600,
+      "checkpoint": "../_server_results/checkpoints/wide384-T1-58k-wd0-s17.pt",
+      "checkpoint_mib": 30.02556324005127,
+      "checkpoint_sha256": "c21af30dc6e32e497b5e8aa04856b023cfe76fb4fa7393736d7639a898c7adf2"
+    },
+    {
+      "run": "wide384-T1-58k-wd0-s18",
+      "validation_bpb": 1.437539989594838,
+      "parameters": 7867776,
+      "seed": 18,
+      "steps": 57600,
+      "checkpoint": "../_server_results/checkpoints/wide384-T1-58k-wd0-s18.pt",
+      "checkpoint_mib": 30.02556324005127,
+      "checkpoint_sha256": "d00745f7308e6b0f20be76e699ea0e87c0ab835d035331ae67e4cebc6586551c"
+    },
+    {
+      "run": "deep256x6-T1-58k-wd0-s17",
+      "validation_bpb": 1.4473786392903822,
+      "parameters": 5247744,
+      "seed": 17,
+      "steps": 57600,
+      "checkpoint": "../_server_results/checkpoints/deep256x6-T1-58k-wd0-s17.pt",
+      "checkpoint_mib": 20.03569507598877,
+      "checkpoint_sha256": "7ec3284cbf22c23b0a265fd236eda4e293080756bc8fd67728ec3a5845d49945"
+    }
+  ],
+  "test_appendix_other_seeds": null,
+  "note": "checkpoint \u7531 validation \u9009\u51fa\uff1btest \u53ea\u4f5c\u4e3a\u51bb\u7ed3\u540e\u7684\u6700\u7ec8\u6d4b\u91cf\u3002\u9644\u5f55\u91cc\u7684\u5176\u5b83 seed \u5206\u6570\u4e0d\u53c2\u4e0e\u9009\u578b\u3002",
+  "measured_at": "2026-09-25 17:27:10"
+}

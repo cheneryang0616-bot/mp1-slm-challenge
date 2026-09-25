@@ -1,0 +1,249 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student",
+  "config": {
+    "vocab": 2048,
+    "context": 256,
+    "width": 512,
+    "heads": 16,
+    "depth": 4,
+    "norm": "rms",
+    "mlp": "swiglu",
+    "pos": "rope",
+    "bias": false,
+    "dropout": 0.0
+  },
+  "seed": 17,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "warmup": 100,
+  "hard_weight": 0.0,
+  "temperature": 1.0,
+  "parameters": 13634048,
+  "precision": "fp32",
+  "train_tokens": 471859200,
+  "preparation_seconds": 10.120115742087364,
+  "train_seconds": 6249.345929197967,
+  "validation": {
+    "bpb": 1.430425160029893,
+    "token_ppl": 20.541106594998006,
+    "nll_nats": 1138243.3918110514,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.5243976190686226
+  },
+  "history": [
+    {
+      "step": 1600,
+      "loss": 2.905444860458374,
+      "seconds": 173.71555269882083
+    },
+    {
+      "step": 3200,
+      "loss": 2.8828020095825195,
+      "seconds": 347.36381581798196
+    },
+    {
+      "step": 4800,
+      "loss": 2.8763530254364014,
+      "seconds": 520.9844068065286
+    },
+    {
+      "step": 6400,
+      "loss": 2.918877363204956,
+      "seconds": 694.6499006412923
+    },
+    {
+      "step": 8000,
+      "loss": 2.8017780780792236,
+      "seconds": 868.2526792958379
+    },
+    {
+      "step": 9600,
+      "loss": 2.849000930786133,
+      "seconds": 1041.8516586907208
+    },
+    {
+      "step": 11200,
+      "loss": 2.7838287353515625,
+      "seconds": 1215.448271535337
+    },
+    {
+      "step": 12800,
+      "loss": 2.8416528701782227,
+      "seconds": 1389.0543791763484
+    },
+    {
+      "step": 14400,
+      "loss": 2.861849308013916,
+      "seconds": 1562.6535631678998
+    },
+    {
+      "step": 16000,
+      "loss": 2.86582612991333,
+      "seconds": 1736.3361833691597
+    },
+    {
+      "step": 17600,
+      "loss": 2.755545139312744,
+      "seconds": 1909.9398458339274
+    },
+    {
+      "step": 19200,
+      "loss": 2.815596103668213,
+      "seconds": 2083.5280782803893
+    },
+    {
+      "step": 20800,
+      "loss": 2.830007791519165,
+      "seconds": 2257.1147656068206
+    },
+    {
+      "step": 22400,
+      "loss": 2.863100051879883,
+      "seconds": 2430.7180498950183
+    },
+    {
+      "step": 24000,
+      "loss": 2.8551182746887207,
+      "seconds": 2604.3501339033246
+    },
+    {
+      "step": 25600,
+      "loss": 2.8942372798919678,
+      "seconds": 2777.888342887163
+    },
+    {
+      "step": 27200,
+      "loss": 2.73296856880188,
+      "seconds": 2951.4503666236997
+    },
+    {
+      "step": 28800,
+      "loss": 2.7932891845703125,
+      "seconds": 3125.0232824720442
+    },
+    {
+      "step": 30400,
+      "loss": 2.8006670475006104,
+      "seconds": 3298.618234153837
+    },
+    {
+      "step": 32000,
+      "loss": 2.873997449874878,
+      "seconds": 3472.224512986839
+    },
+    {
+      "step": 33600,
+      "loss": 2.8119943141937256,
+      "seconds": 3645.770633082837
+    },
+    {
+      "step": 35200,
+      "loss": 2.8219213485717773,
+      "seconds": 3819.291506242007
+    },
+    {
+      "step": 36800,
+      "loss": 2.7521402835845947,
+      "seconds": 3992.8337925560772
+    },
+    {
+      "step": 38400,
+      "loss": 2.8161253929138184,
+      "seconds": 4166.472458392382
+    },
+    {
+      "step": 40000,
+      "loss": 2.86210298538208,
+      "seconds": 4340.019627314061
+    },
+    {
+      "step": 41600,
+      "loss": 2.793549060821533,
+      "seconds": 4513.576098706573
+    },
+    {
+      "step": 43200,
+      "loss": 2.832731246948242,
+      "seconds": 4687.141386374831
+    },
+    {
+      "step": 44800,
+      "loss": 2.721451759338379,
+      "seconds": 4860.748439807445
+    },
+    {
+      "step": 46400,
+      "loss": 2.857815742492676,
+      "seconds": 5034.431077033281
+    },
+    {
+      "step": 48000,
+      "loss": 2.8255791664123535,
+      "seconds": 5208.013504974544
+    },
+    {
+      "step": 49600,
+      "loss": 2.8432061672210693,
+      "seconds": 5381.554316960275
+    },
+    {
+      "step": 51200,
+      "loss": 2.81264066696167,
+      "seconds": 5555.094001799822
+    },
+    {
+      "step": 52800,
+      "loss": 2.8360400199890137,
+      "seconds": 5728.729068491608
+    },
+    {
+      "step": 54400,
+      "loss": 2.7641568183898926,
+      "seconds": 5902.281688757241
+    },
+    {
+      "step": 56000,
+      "loss": 2.8442165851593018,
+      "seconds": 6075.796423982829
+    },
+    {
+      "step": 57600,
+      "loss": 2.853950023651123,
+      "seconds": 6249.345709424466
+    }
+  ],
+  "distilled_from": [
+    "runs/wide256-24x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s18/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s19/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s20/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s21/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s22/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s23/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s24/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s25/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s26/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s27/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s28/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s29/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s30/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s31/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s32/checkpoint.pt",
+    "runs/wide256-32x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-48x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-16x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-12x-wd03-s17/checkpoint.pt",
+    "runs/wide256-24x-do15-wd03-s17/checkpoint.pt"
+  ],
+  "process_seconds": 6261.095366805792,
+  "torch_version": "2.7.1+cu126",
+  "threads": 8,
+  "checkpoint_sha256": "0eeb93378a5279aac27492b8da2c3dac7668790b6f6adc4ba2f50aeb933ee5a7",
+  "implementation_sha256": "dc76918a010c03fad4fe1f4c81c20c4a6a3f094cf8dc019c0dd050adf2f0c419",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "peak_allocated_gb": 2.501798912,
+  "peak_reserved_gb": 2.749366272
+}

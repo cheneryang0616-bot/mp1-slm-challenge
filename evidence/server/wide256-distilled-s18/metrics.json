@@ -1,0 +1,243 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student",
+  "config": {
+    "vocab": 2048,
+    "context": 256,
+    "width": 256,
+    "heads": 8,
+    "depth": 4,
+    "norm": "rms",
+    "mlp": "swiglu",
+    "pos": "rope",
+    "bias": false,
+    "dropout": 0.1
+  },
+  "seed": 18,
+  "lr": 0.001,
+  "weight_decay": 0.3,
+  "warmup": 100,
+  "hard_weight": 0.0,
+  "temperature": 1.0,
+  "parameters": 3673344,
+  "precision": "fp32",
+  "train_tokens": 117964800,
+  "preparation_seconds": 9.843830395489931,
+  "train_seconds": 1007.8327707983553,
+  "validation": {
+    "bpb": 1.519781112136102,
+    "token_ppl": 24.809668574837048,
+    "nll_nats": 1209347.3019252666,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.28129828348755836
+  },
+  "history": [
+    {
+      "step": 400,
+      "loss": 3.816075325012207,
+      "seconds": 28.34239834547043
+    },
+    {
+      "step": 800,
+      "loss": 3.5237154960632324,
+      "seconds": 56.515018343925476
+    },
+    {
+      "step": 1200,
+      "loss": 3.3574604988098145,
+      "seconds": 84.55970406904817
+    },
+    {
+      "step": 1600,
+      "loss": 3.2212023735046387,
+      "seconds": 112.54862025007606
+    },
+    {
+      "step": 2000,
+      "loss": 3.181319236755371,
+      "seconds": 140.67455971240997
+    },
+    {
+      "step": 2400,
+      "loss": 3.1992602348327637,
+      "seconds": 168.6184422299266
+    },
+    {
+      "step": 2800,
+      "loss": 3.1383304595947266,
+      "seconds": 196.7939400151372
+    },
+    {
+      "step": 3200,
+      "loss": 3.075018882751465,
+      "seconds": 224.95932152494788
+    },
+    {
+      "step": 3600,
+      "loss": 3.1219987869262695,
+      "seconds": 253.15425034984946
+    },
+    {
+      "step": 4000,
+      "loss": 3.1568710803985596,
+      "seconds": 281.23520132526755
+    },
+    {
+      "step": 4400,
+      "loss": 3.1069765090942383,
+      "seconds": 309.1871579475701
+    },
+    {
+      "step": 4800,
+      "loss": 2.996628522872925,
+      "seconds": 337.01099133491516
+    },
+    {
+      "step": 5200,
+      "loss": 3.0465877056121826,
+      "seconds": 364.8884234316647
+    },
+    {
+      "step": 5600,
+      "loss": 3.022421360015869,
+      "seconds": 392.80026096105576
+    },
+    {
+      "step": 6000,
+      "loss": 2.921743392944336,
+      "seconds": 420.7129445448518
+    },
+    {
+      "step": 6400,
+      "loss": 2.98797607421875,
+      "seconds": 448.64087161421776
+    },
+    {
+      "step": 6800,
+      "loss": 3.083564043045044,
+      "seconds": 476.63273852691054
+    },
+    {
+      "step": 7200,
+      "loss": 3.056361198425293,
+      "seconds": 504.77609072998166
+    },
+    {
+      "step": 7600,
+      "loss": 3.0275328159332275,
+      "seconds": 532.7193727940321
+    },
+    {
+      "step": 8000,
+      "loss": 2.970367431640625,
+      "seconds": 560.6165983863175
+    },
+    {
+      "step": 8400,
+      "loss": 3.0536837577819824,
+      "seconds": 588.5812696814537
+    },
+    {
+      "step": 8800,
+      "loss": 2.9852397441864014,
+      "seconds": 616.6755343973637
+    },
+    {
+      "step": 9200,
+      "loss": 3.020674467086792,
+      "seconds": 644.4998784586787
+    },
+    {
+      "step": 9600,
+      "loss": 3.062825918197632,
+      "seconds": 672.4357993938029
+    },
+    {
+      "step": 10000,
+      "loss": 3.0275039672851562,
+      "seconds": 700.3326309099793
+    },
+    {
+      "step": 10400,
+      "loss": 3.048313617706299,
+      "seconds": 728.2270637899637
+    },
+    {
+      "step": 10800,
+      "loss": 2.953524112701416,
+      "seconds": 756.3161571696401
+    },
+    {
+      "step": 11200,
+      "loss": 2.9038686752319336,
+      "seconds": 784.2880449518561
+    },
+    {
+      "step": 11600,
+      "loss": 3.0154733657836914,
+      "seconds": 812.0911101847887
+    },
+    {
+      "step": 12000,
+      "loss": 2.9629030227661133,
+      "seconds": 839.9389405846596
+    },
+    {
+      "step": 12400,
+      "loss": 3.1019303798675537,
+      "seconds": 867.8609060160816
+    },
+    {
+      "step": 12800,
+      "loss": 3.0009093284606934,
+      "seconds": 895.9017422422767
+    },
+    {
+      "step": 13200,
+      "loss": 2.9451658725738525,
+      "seconds": 923.814903691411
+    },
+    {
+      "step": 13600,
+      "loss": 2.9844369888305664,
+      "seconds": 951.8584816008806
+    },
+    {
+      "step": 14000,
+      "loss": 2.974931240081787,
+      "seconds": 979.8131003193557
+    },
+    {
+      "step": 14400,
+      "loss": 2.985879421234131,
+      "seconds": 1007.8325413614511
+    }
+  ],
+  "distilled_from": [
+    "runs/wide256-24x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s18/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s19/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s20/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s21/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s22/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s23/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s24/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s25/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s26/checkpoint.pt",
+    "runs/wide256-32x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-48x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-16x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-12x-wd03-s17/checkpoint.pt",
+    "runs/wide256-24x-do15-wd03-s17/checkpoint.pt"
+  ],
+  "process_seconds": 1019.0611526742578,
+  "torch_version": "2.7.1+cu126",
+  "threads": 8,
+  "checkpoint_sha256": "9b87fc46f32092d0a687e2a8446c3b02fd4c7e309be96a87e127ad9e47c94648",
+  "implementation_sha256": "dc76918a010c03fad4fe1f4c81c20c4a6a3f094cf8dc019c0dd050adf2f0c419",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "peak_allocated_gb": 1.532178432,
+  "peak_reserved_gb": 1.746927616
+}

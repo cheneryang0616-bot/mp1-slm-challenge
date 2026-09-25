@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-6x-do",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 58982400,
+  "note": "width 256 at 6x targets with dropout 0.1, against demonstrated overfitting",
+  "plan": "wide256-6x-do",
+  "seed": 17,
+  "steps": 7200,
+  "threads": 2,
+  "wall_seconds": 8307.997396124993,
+  "peak_ram_gb_children": 2.46002197265625
+}

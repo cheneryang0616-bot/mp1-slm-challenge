@@ -1,0 +1,19 @@
+{
+  "implementation": "model",
+  "config": "configs/baseline.json",
+  "run_prefix": "verify-baseline",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "note": "cross-device calibration: must reproduce 2.071088 (CPU, seed 17)",
+  "plan": "verify-baseline",
+  "seed": 17,
+  "steps": 1200,
+  "threads": 8,
+  "device": "cuda",
+  "targets": 9830400,
+  "wall_seconds": 33.963045965880156,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.0021068789064884186
+}

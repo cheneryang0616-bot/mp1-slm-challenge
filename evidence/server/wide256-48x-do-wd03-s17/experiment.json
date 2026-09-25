@@ -1,0 +1,20 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-48x-do-wd03",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 471859200,
+  "weight_decay": 0.3,
+  "note": "length axis with wd 0.3: 48x (brackets the peak from above)",
+  "plan": "wide256-48x-do-wd03",
+  "seed": 17,
+  "steps": 57600,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 1762.8075807765126,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.002106904983520508
+}

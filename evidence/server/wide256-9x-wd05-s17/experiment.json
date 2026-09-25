@@ -1,0 +1,20 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-9x-wd05",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 88473600,
+  "weight_decay": 0.5,
+  "note": "weight-decay sweep at 9x: weight decay 0.5",
+  "plan": "wide256-9x-wd05",
+  "seed": 17,
+  "steps": 10800,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 336.3860791772604,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.002106916159391403
+}

@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/modern.json",
+  "run_prefix": "modern",
+  "seeds": [
+    17,
+    18,
+    19
+  ],
+  "batch_size": 32,
+  "note": "main method: RMSNorm + SwiGLU + RoPE + no bias",
+  "plan": "modern",
+  "seed": 17,
+  "steps": 1200,
+  "threads": 4,
+  "targets": 9830400,
+  "wall_seconds": 387.831577207995,
+  "peak_ram_gb_children": 1.5554046630859375
+}

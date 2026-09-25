@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/modern.json",
+  "run_prefix": "modern-6x",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 58982400,
+  "note": "same architecture as modern, 6x training targets",
+  "plan": "modern-6x",
+  "seed": 17,
+  "steps": 7200,
+  "threads": 2,
+  "wall_seconds": 3311.735241999995,
+  "peak_ram_gb_children": 1.6167144775390625
+}

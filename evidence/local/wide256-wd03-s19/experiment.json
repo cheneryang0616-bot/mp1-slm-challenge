@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256.json",
+  "run_prefix": "wide256-wd03",
+  "seeds": [
+    18,
+    19
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "weight_decay": 0.3,
+  "note": "seed confirmation of the best recipe so far: 3x budget, weight decay 0.3",
+  "plan": "wide256-wd03",
+  "seed": 19,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 3087.8067921669863,
+  "peak_ram_gb_children": 1.98876953125
+}
