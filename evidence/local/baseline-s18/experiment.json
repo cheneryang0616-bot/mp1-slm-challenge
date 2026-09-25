@@ -1,0 +1,19 @@
+{
+  "implementation": "model",
+  "config": "configs/baseline.json",
+  "run_prefix": "baseline",
+  "seeds": [
+    17,
+    18,
+    19
+  ],
+  "batch_size": 32,
+  "note": "seed-noise estimate for the classroom baseline",
+  "plan": "baseline-seeds",
+  "seed": 18,
+  "steps": 1200,
+  "threads": 4,
+  "targets": 9830400,
+  "wall_seconds": 376.2396924169734,
+  "peak_ram_gb_children": 1.6515655517578125
+}

@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/modern-layernorm.json",
+  "run_prefix": "ablate-norm",
+  "seeds": [
+    17,
+    18,
+    19
+  ],
+  "batch_size": 32,
+  "note": "ablation: LayerNorm in place of RMSNorm",
+  "plan": "ablate-norm",
+  "seed": 18,
+  "steps": 1200,
+  "threads": 2,
+  "targets": 9830400,
+  "wall_seconds": 870.6953482499957,
+  "peak_ram_gb_children": 1.6423797607421875
+}

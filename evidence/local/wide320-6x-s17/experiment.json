@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/wide320.json",
+  "run_prefix": "wide320-6x",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 58982400,
+  "note": "5.3x parameters AND 6x training targets",
+  "plan": "wide320-6x",
+  "seed": 17,
+  "steps": 7200,
+  "threads": 2,
+  "wall_seconds": 7803.59666941702,
+  "peak_ram_gb_children": 1.6961517333984375
+}

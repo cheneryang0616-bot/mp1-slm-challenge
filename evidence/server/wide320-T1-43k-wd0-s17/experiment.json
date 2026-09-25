@@ -1,0 +1,14 @@
+{
+  "plan": "distill",
+  "seed": 17,
+  "steps": 43200,
+  "batch_size": 32,
+  "threads": 8,
+  "device": "cuda",
+  "temperature": 1.0,
+  "hard_weight": 0.0,
+  "targets": 353894400,
+  "wall_seconds": 4127.963660471141,
+  "hardware": "cuda distillation",
+  "note": "ensemble distillation"
+}

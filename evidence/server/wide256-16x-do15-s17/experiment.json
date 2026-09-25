@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout15.json",
+  "run_prefix": "wide256-16x-do15",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 157286400,
+  "note": "dropout sweep at 16x: dropout 0.15",
+  "plan": "wide256-16x-do15",
+  "seed": 17,
+  "steps": 19200,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 596.2141822762787,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.00210682675242424
+}

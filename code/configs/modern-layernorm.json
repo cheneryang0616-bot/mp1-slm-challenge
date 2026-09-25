@@ -1,0 +1,12 @@
+{
+  "vocab": 2048,
+  "context": 256,
+  "width": 128,
+  "heads": 4,
+  "depth": 4,
+  "norm": "layer",
+  "mlp": "swiglu",
+  "pos": "rope",
+  "bias": false,
+  "dropout": 0.0
+}

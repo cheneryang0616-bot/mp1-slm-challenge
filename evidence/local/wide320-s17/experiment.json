@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/wide320.json",
+  "run_prefix": "wide320",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "note": "modern recipe at 5.3x parameters, 3x training targets",
+  "plan": "wide320",
+  "seed": 17,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 3954.456304499996,
+  "peak_ram_gb_children": 1.70013427734375
+}

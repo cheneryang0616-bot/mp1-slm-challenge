@@ -1,0 +1,18 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256.json",
+  "run_prefix": "hp-lr-small",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "lr": 0.0005,
+  "note": "HP sweep: peak lr 5e-4 (reference 1e-3), everything else unchanged",
+  "plan": "hp-lr-small",
+  "seed": 17,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 3399.5535466249858,
+  "peak_ram_gb_children": 1.87396240234375
+}

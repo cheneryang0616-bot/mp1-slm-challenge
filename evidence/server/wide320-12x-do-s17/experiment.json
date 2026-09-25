@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/wide320-dropout.json",
+  "run_prefix": "wide320-12x-do",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 117964800,
+  "note": "size axis revisited: width 320 (5.57M) at 12x + dropout 0.1",
+  "plan": "wide320-12x-do",
+  "seed": 17,
+  "steps": 14400,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 446.83087557181716,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.0021068453788757324
+}

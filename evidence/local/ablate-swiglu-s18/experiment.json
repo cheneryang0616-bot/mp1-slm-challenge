@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/modern-gelu.json",
+  "run_prefix": "ablate-swiglu",
+  "seeds": [
+    17,
+    18,
+    19
+  ],
+  "batch_size": 32,
+  "note": "ablation: GELU MLP in place of SwiGLU, everything else identical",
+  "plan": "ablate-swiglu",
+  "seed": 18,
+  "steps": 1200,
+  "threads": 2,
+  "targets": 9830400,
+  "wall_seconds": 961.6812018750061,
+  "peak_ram_gb_children": 1.62164306640625
+}

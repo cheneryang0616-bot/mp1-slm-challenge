@@ -1,0 +1,17 @@
+{
+  "implementation": "model",
+  "config": "configs/baseline.json",
+  "run_prefix": "threads-2t",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "note": "thread control: baseline seed 17 at 2 threads (direct 2T vs 4T comparison)",
+  "plan": "threads-2t",
+  "seed": 17,
+  "steps": 1200,
+  "threads": 2,
+  "targets": 9830400,
+  "wall_seconds": 532.3869573329866,
+  "peak_ram_gb_children": 1.616668701171875
+}

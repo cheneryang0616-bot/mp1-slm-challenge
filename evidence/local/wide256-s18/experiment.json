@@ -1,0 +1,18 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256.json",
+  "run_prefix": "wide256",
+  "seeds": [
+    18,
+    19
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "note": "extra seeds for the best config: 3-seed stats + ensemble/soup members",
+  "plan": "wide256-seeds",
+  "seed": 18,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 3040.5722090000054,
+  "peak_ram_gb_children": 1.97314453125
+}

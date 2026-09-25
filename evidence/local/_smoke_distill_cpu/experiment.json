@@ -1,0 +1,14 @@
+{
+  "plan": "distill",
+  "seed": 17,
+  "steps": 20,
+  "batch_size": 32,
+  "threads": 8,
+  "device": "cpu",
+  "temperature": 1.0,
+  "hard_weight": 0.0,
+  "targets": 163840,
+  "wall_seconds": 24.07883762504207,
+  "hardware": "cpu distillation",
+  "note": "CPU smoke test"
+}

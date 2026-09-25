@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256.json",
+  "run_prefix": "wide256-6x",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 58982400,
+  "note": "3.5x parameters AND 6x training targets",
+  "plan": "wide256-6x",
+  "seed": 17,
+  "steps": 7200,
+  "threads": 2,
+  "wall_seconds": 6207.831641083001,
+  "peak_ram_gb_children": 1.8174591064453125
+}

@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-9x-do",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 88473600,
+  "note": "training-length axis under dropout: 9x budget, dropout 0.1 (6x+do already won)",
+  "plan": "wide256-9x-do",
+  "seed": 17,
+  "steps": 10800,
+  "threads": 8,
+  "wall_seconds": 20174.19895800005,
+  "peak_ram_gb_children": 0.0
+}

@@ -1,0 +1,98 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 19,
+  "parameters": 1088256,
+  "precision": "fp32",
+  "train_tokens": 9830400,
+  "preparation_seconds": 6.837364208011422,
+  "train_seconds": 339.2924260410364,
+  "validation": {
+    "bpb": 2.0786411517699035,
+    "token_ppl": 80.8084185268674,
+    "nll_nats": 1654053.3689292497,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 6.567131292016711
+  },
+  "history": [
+    {
+      "step": 100,
+      "loss": 5.972187519073486,
+      "seconds": 28.0437540000421
+    },
+    {
+      "step": 200,
+      "loss": 5.205336570739746,
+      "seconds": 55.60735816601664
+    },
+    {
+      "step": 300,
+      "loss": 4.944649696350098,
+      "seconds": 83.58717737504048
+    },
+    {
+      "step": 400,
+      "loss": 4.739357948303223,
+      "seconds": 112.42705941601889
+    },
+    {
+      "step": 500,
+      "loss": 4.632655620574951,
+      "seconds": 140.96228279103525
+    },
+    {
+      "step": 600,
+      "loss": 4.577701091766357,
+      "seconds": 168.90653266600566
+    },
+    {
+      "step": 700,
+      "loss": 4.511744022369385,
+      "seconds": 198.33099991601193
+    },
+    {
+      "step": 800,
+      "loss": 4.4499688148498535,
+      "seconds": 226.54066904104548
+    },
+    {
+      "step": 900,
+      "loss": 4.352189064025879,
+      "seconds": 255.02083895803662
+    },
+    {
+      "step": 1000,
+      "loss": 4.331670761108398,
+      "seconds": 283.18205937504536
+    },
+    {
+      "step": 1100,
+      "loss": 4.401278972625732,
+      "seconds": 310.9014327910263
+    },
+    {
+      "step": 1200,
+      "loss": 4.360114097595215,
+      "seconds": 339.29226616601227
+    }
+  ],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 352.7106341670151,
+  "torch_version": "2.7.1",
+  "threads": 4,
+  "checkpoint_sha256": "b59e47d282a5dca577063464f9c8972c6d75e56691b146c7fcd5deef2ef8a93f",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cpu",
+  "device_name": "CPU",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0
+}

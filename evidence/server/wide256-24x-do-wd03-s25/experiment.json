@@ -1,0 +1,25 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-24x-do-wd03",
+  "seeds": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "batch_size": 32,
+  "targets": 235929600,
+  "weight_decay": 0.3,
+  "note": "more ensemble members for the best recipe (the ensemble gain grows with member count)",
+  "plan": "wide256-24x-wd03-more-seeds",
+  "seed": 25,
+  "steps": 28800,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 888.5699166692793,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.0021069832146167755
+}

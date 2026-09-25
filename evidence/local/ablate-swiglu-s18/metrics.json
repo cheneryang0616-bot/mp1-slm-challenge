@@ -1,0 +1,103 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student",
+  "config": {
+    "vocab": 2048,
+    "context": 256,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "norm": "rms",
+    "mlp": "gelu",
+    "pos": "rope",
+    "bias": false,
+    "dropout": 0.0
+  },
+  "seed": 18,
+  "parameters": 1049728,
+  "precision": "fp32",
+  "train_tokens": 9830400,
+  "preparation_seconds": 10.72102470799291,
+  "train_seconds": 919.0782926669926,
+  "validation": {
+    "bpb": 1.9269238526739436,
+    "token_ppl": 58.64538535284454,
+    "nll_nats": 1533326.1768014291,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 29.492053375011892
+  },
+  "history": [
+    {
+      "step": 100,
+      "loss": 5.836240768432617,
+      "seconds": 63.052060832997086
+    },
+    {
+      "step": 200,
+      "loss": 5.075388431549072,
+      "seconds": 125.18445695799892
+    },
+    {
+      "step": 300,
+      "loss": 4.711758613586426,
+      "seconds": 189.43661883300229
+    },
+    {
+      "step": 400,
+      "loss": 4.449156284332275,
+      "seconds": 250.7074626669928
+    },
+    {
+      "step": 500,
+      "loss": 4.342703342437744,
+      "seconds": 313.6744886249944
+    },
+    {
+      "step": 600,
+      "loss": 4.259121417999268,
+      "seconds": 393.25009695799963
+    },
+    {
+      "step": 700,
+      "loss": 4.187408924102783,
+      "seconds": 463.82146462499804
+    },
+    {
+      "step": 800,
+      "loss": 4.108604431152344,
+      "seconds": 541.8700603329926
+    },
+    {
+      "step": 900,
+      "loss": 4.063133716583252,
+      "seconds": 609.0281906669989
+    },
+    {
+      "step": 1000,
+      "loss": 3.9636213779449463,
+      "seconds": 697.0398185829981
+    },
+    {
+      "step": 1100,
+      "loss": 3.935232400894165,
+      "seconds": 811.1142470420018
+    },
+    {
+      "step": 1200,
+      "loss": 4.005860805511475,
+      "seconds": 919.0766768750036
+    }
+  ],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 959.3486032079963,
+  "torch_version": "2.7.1",
+  "threads": 2,
+  "checkpoint_sha256": "fcc6ba4420db332e58784e52a972d13698e4308ecb6e04e8ecfbe79945544c95",
+  "implementation_sha256": "dc76918a010c03fad4fe1f4c81c20c4a6a3f094cf8dc019c0dd050adf2f0c419",
+  "device": "cpu",
+  "device_name": "CPU",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0
+}

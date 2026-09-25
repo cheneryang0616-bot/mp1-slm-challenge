@@ -1,0 +1,25 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-24x-do-wd03",
+  "seeds": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "batch_size": 32,
+  "targets": 235929600,
+  "weight_decay": 0.3,
+  "note": "second batch of ensemble members: lifts the ceiling the distillation can reach",
+  "plan": "wide256-24x-wd03-more-seeds2",
+  "seed": 30,
+  "steps": 28800,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 856.1995629966259,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.0021070092916488647
+}

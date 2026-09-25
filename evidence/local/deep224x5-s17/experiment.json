@@ -1,0 +1,17 @@
+{
+  "implementation": "student",
+  "config": "configs/deep224x5.json",
+  "run_prefix": "deep224x5",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "note": "depth axis: width 224 x depth 5 (3.47M params, same budget as wide256)",
+  "plan": "deep224x5",
+  "seed": 17,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 3268.206938999996,
+  "peak_ram_gb_children": 1.9712982177734375
+}

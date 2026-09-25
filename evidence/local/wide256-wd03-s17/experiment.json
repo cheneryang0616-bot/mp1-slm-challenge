@@ -1,0 +1,18 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256.json",
+  "run_prefix": "hp-wd-large",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 29491200,
+  "weight_decay": 0.3,
+  "note": "HP sweep: weight decay 0.3 (reference 0.1), everything else unchanged",
+  "plan": "hp-wd-large",
+  "seed": 17,
+  "steps": 3600,
+  "threads": 2,
+  "wall_seconds": 3055.248197125009,
+  "peak_ram_gb_children": 1.9341888427734375
+}

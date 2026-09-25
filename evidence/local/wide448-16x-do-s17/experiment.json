@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/wide448-dropout.json",
+  "run_prefix": "wide448-16x-do",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "targets": 157286400,
+  "note": "size x length: width 448 (10.55M) at 16x + dropout 0.1 (asset budget ceiling)",
+  "plan": "wide448-16x-do",
+  "seed": 17,
+  "steps": 19200,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 601.6646138168871,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.0021069683134555817
+}

@@ -1,0 +1,249 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student",
+  "config": {
+    "vocab": 2048,
+    "context": 256,
+    "width": 384,
+    "heads": 12,
+    "depth": 4,
+    "norm": "rms",
+    "mlp": "swiglu",
+    "pos": "rope",
+    "bias": false,
+    "dropout": 0.0
+  },
+  "seed": 18,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "warmup": 100,
+  "hard_weight": 0.0,
+  "temperature": 1.0,
+  "parameters": 7867776,
+  "precision": "fp32",
+  "train_tokens": 235929600,
+  "preparation_seconds": 10.020993530750275,
+  "train_seconds": 2842.963148728013,
+  "validation": {
+    "bpb": 1.4412095713021493,
+    "token_ppl": 21.014550624777957,
+    "nll_nats": 1146824.9556762744,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 0.39751656353473663
+  },
+  "history": [
+    {
+      "step": 800,
+      "loss": 3.2070846557617188,
+      "seconds": 79.07900455966592
+    },
+    {
+      "step": 1600,
+      "loss": 2.922647476196289,
+      "seconds": 158.03457685932517
+    },
+    {
+      "step": 2400,
+      "loss": 2.9618301391601562,
+      "seconds": 236.98915192857385
+    },
+    {
+      "step": 3200,
+      "loss": 2.852855682373047,
+      "seconds": 315.9502090886235
+    },
+    {
+      "step": 4000,
+      "loss": 2.946427822113037,
+      "seconds": 394.9223138317466
+    },
+    {
+      "step": 4800,
+      "loss": 2.8011012077331543,
+      "seconds": 473.8890993334353
+    },
+    {
+      "step": 5600,
+      "loss": 2.831404447555542,
+      "seconds": 552.8689951524138
+    },
+    {
+      "step": 6400,
+      "loss": 2.807072639465332,
+      "seconds": 631.8861183784902
+    },
+    {
+      "step": 7200,
+      "loss": 2.8920836448669434,
+      "seconds": 710.8560974001884
+    },
+    {
+      "step": 8000,
+      "loss": 2.8002631664276123,
+      "seconds": 789.8317420557141
+    },
+    {
+      "step": 8800,
+      "loss": 2.815049648284912,
+      "seconds": 868.7871427871287
+    },
+    {
+      "step": 9600,
+      "loss": 2.900341033935547,
+      "seconds": 947.7482418045402
+    },
+    {
+      "step": 10400,
+      "loss": 2.8880109786987305,
+      "seconds": 1026.7399836368859
+    },
+    {
+      "step": 11200,
+      "loss": 2.757739543914795,
+      "seconds": 1105.7288064658642
+    },
+    {
+      "step": 12000,
+      "loss": 2.81878399848938,
+      "seconds": 1184.7155154496431
+    },
+    {
+      "step": 12800,
+      "loss": 2.8594565391540527,
+      "seconds": 1263.688239645213
+    },
+    {
+      "step": 13600,
+      "loss": 2.8412678241729736,
+      "seconds": 1342.660274464637
+    },
+    {
+      "step": 14400,
+      "loss": 2.8410415649414062,
+      "seconds": 1421.6217240802944
+    },
+    {
+      "step": 15200,
+      "loss": 2.8449594974517822,
+      "seconds": 1500.5644976235926
+    },
+    {
+      "step": 16000,
+      "loss": 2.7261674404144287,
+      "seconds": 1579.5161703526974
+    },
+    {
+      "step": 16800,
+      "loss": 2.840852975845337,
+      "seconds": 1658.4691135808825
+    },
+    {
+      "step": 17600,
+      "loss": 2.869168281555176,
+      "seconds": 1737.4121333770454
+    },
+    {
+      "step": 18400,
+      "loss": 2.788663864135742,
+      "seconds": 1816.3773098550737
+    },
+    {
+      "step": 19200,
+      "loss": 2.7849957942962646,
+      "seconds": 1895.3217187449336
+    },
+    {
+      "step": 20000,
+      "loss": 2.76701021194458,
+      "seconds": 1974.2667667493224
+    },
+    {
+      "step": 20800,
+      "loss": 2.8229384422302246,
+      "seconds": 2053.216742180288
+    },
+    {
+      "step": 21600,
+      "loss": 2.761911392211914,
+      "seconds": 2132.1946472376585
+    },
+    {
+      "step": 22400,
+      "loss": 2.8486061096191406,
+      "seconds": 2211.1799281463027
+    },
+    {
+      "step": 23200,
+      "loss": 2.8258819580078125,
+      "seconds": 2290.148513611406
+    },
+    {
+      "step": 24000,
+      "loss": 2.9024033546447754,
+      "seconds": 2369.0988151952624
+    },
+    {
+      "step": 24800,
+      "loss": 2.753565788269043,
+      "seconds": 2448.03534777835
+    },
+    {
+      "step": 25600,
+      "loss": 2.735907793045044,
+      "seconds": 2526.9913909621537
+    },
+    {
+      "step": 26400,
+      "loss": 2.783581256866455,
+      "seconds": 2605.954131703824
+    },
+    {
+      "step": 27200,
+      "loss": 2.8062844276428223,
+      "seconds": 2684.982815988362
+    },
+    {
+      "step": 28000,
+      "loss": 2.832014799118042,
+      "seconds": 2763.985440954566
+    },
+    {
+      "step": 28800,
+      "loss": 2.7719247341156006,
+      "seconds": 2842.962911028415
+    }
+  ],
+  "distilled_from": [
+    "runs/wide256-24x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s18/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s19/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s20/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s21/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s22/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s23/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s24/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s25/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s26/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s27/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s28/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s29/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s30/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s31/checkpoint.pt",
+    "runs/wide256-24x-do-wd03-s32/checkpoint.pt",
+    "runs/wide256-32x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-48x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-16x-do-wd03-s17/checkpoint.pt",
+    "runs/wide256-12x-wd03-s17/checkpoint.pt",
+    "runs/wide256-24x-do15-wd03-s17/checkpoint.pt"
+  ],
+  "process_seconds": 2854.4644884467125,
+  "torch_version": "2.7.1+cu126",
+  "threads": 8,
+  "checkpoint_sha256": "26abcca21e2adbacbdc79018140b5addc63a8654447a255f75e8af175aedda8a",
+  "implementation_sha256": "dc76918a010c03fad4fe1f4c81c20c4a6a3f094cf8dc019c0dd050adf2f0c419",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "peak_allocated_gb": 2.0391808,
+  "peak_reserved_gb": 2.26492416
+}

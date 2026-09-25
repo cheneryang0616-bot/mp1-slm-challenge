@@ -1,0 +1,17 @@
+{
+  "implementation": "model",
+  "config": "configs/baseline.json",
+  "run_prefix": "threads-4t",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "note": "thread control: baseline seed 17 at 4 threads (reproducibility check)",
+  "plan": "threads-4t",
+  "seed": 17,
+  "steps": 1200,
+  "threads": 4,
+  "targets": 9830400,
+  "wall_seconds": 355.44647179200547,
+  "peak_ram_gb_children": 1.5547637939453125
+}

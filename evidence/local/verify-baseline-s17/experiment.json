@@ -1,0 +1,17 @@
+{
+  "implementation": "model",
+  "config": "configs/baseline.json",
+  "run_prefix": "verify-baseline",
+  "seeds": [
+    17
+  ],
+  "batch_size": 32,
+  "note": "cross-device calibration: must reproduce 2.071088 (CPU, seed 17)",
+  "plan": "verify-baseline",
+  "seed": 17,
+  "steps": 1200,
+  "threads": 8,
+  "targets": 9830400,
+  "wall_seconds": 389.360426499974,
+  "peak_ram_gb_children": 0.0
+}

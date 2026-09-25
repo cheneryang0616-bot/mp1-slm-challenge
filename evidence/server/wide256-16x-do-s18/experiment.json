@@ -1,0 +1,19 @@
+{
+  "implementation": "student",
+  "config": "configs/wide256-dropout.json",
+  "run_prefix": "wide256-16x-do",
+  "seeds": [
+    18
+  ],
+  "batch_size": 32,
+  "targets": 157286400,
+  "note": "seed + ensemble member of 16x + dropout 0.1 (noise floor at the operating point)",
+  "plan": "wide256-16x-do-s18",
+  "seed": 18,
+  "steps": 19200,
+  "threads": 8,
+  "device": "cuda",
+  "wall_seconds": 588.673546794802,
+  "hardware": "x86_64 CPU / Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "peak_ram_gb_children": 0.0021068789064884186
+}
